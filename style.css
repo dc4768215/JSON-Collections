@@ -1,8 +1,7 @@
-.mainContainer {
+#contentGrid {
   display: grid;
-  grid-template-columns: 3, 1fr;
-}
-#contentGrid{
+  grid-template-columns: repeat(3, 1fr);
+
   position: absolute;
   top: 0%;
   left: 0%;
