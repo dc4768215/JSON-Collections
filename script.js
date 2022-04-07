@@ -7,21 +7,21 @@ function printToPage(incoming) {
 let jsonDatabase = [
   {
     "Name" : "Pim",
-    "pictureURL" : "https://static.wikia.nocookie.net/smiling-friends/images/f/fb/Pim.png/revision/latest?cb=20211223214250",
+    "pictureURL" : "Pim.webp",
     "Color" : "Bubble Gum Pink",
     "Species" : "Critter",
     "Occupation" : "Smiling Friend"
   },
   {
     "Name" : "Charlie",
-    "pictureURL" : "https://static.wikia.nocookie.net/smiling-friends/images/c/c9/Charlie.png/revision/latest?cb=20220113014948",
+    "pictureURL" : "Charlie.webp",
     "Color" : "Piss Yellow",
     "Species" : "Critter",
     "Occupation" : "Smiling Friend"
   },
   {
     "Name" : "The Boss",
-    "pictureURL" : "https://static.wikia.nocookie.net/smiling-friends/images/b/bf/The_boss.jpg/revision/latest/scale-to-width-down/700?cb=20220114223652",
+    "pictureURL" : "The_boss.webp",
     "Color" : "Pale Peach",
     "Species" : "Human",
     "Occupation" : "Head of Smiling Friends Inc."
@@ -33,10 +33,10 @@ for (var i = 0; i < jsonDatabase.length; i++) {
 }
 
 function createElementProper(incomingJSON) {
-  var divColor = "#eefbfd";
+  /*var divColor = "#eefbfd";*/
 
   let newContentElement = document.createElement("DIV");
-  newContentElement.style.backgroundColor = divColor;
+  /*newContentElement.style.backgroundColor = divColor;*/
   newContentElement.classList.add('contentItem');
 
   let newContentHeading = document.createElement("H3");
