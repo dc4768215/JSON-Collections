@@ -12,6 +12,8 @@
   background-image: url(https://s.cornershopapp.com/product-images/4504433.jpg?versionId=WK.I45oxdIFyVxd5fsG_CETfyAquFaJ0);
   background-size: cover;
   display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
   background-repeat: no-repeat;
   overflow: hidden;
 }
