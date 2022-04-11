@@ -25,14 +25,21 @@ let jsonDatabase = [
     "Color" : "Pale Peach",
     "Species" : "Human",
     "Occupation" : "Head of Smiling Friends Inc."
-  }/*,
+  },
   {
     "Name" : "Alan",
-    "pictureURL" : "Alan.webp"
-    "Color" : "Pale Red"
-    "Species" : "Critter"
+    "pictureURL" : "Alan.webp",
+    "Color" : "Pale Red",
+    "Species" : "Critter",
     "Occupation" : "Smiling Friend; Former Frowning Friend"
-  }*/
+  },
+  {
+    "Name" : "Glep",
+    "pictureURL" : "Glep.webp",
+    "Color" : "Green",
+    "Species" : "Critter",
+    "Occupation" : "Smiling Friend; Former Frowning Friend"
+  }
 ]
 
 for (var i = 0; i < jsonDatabase.length; i++) {
@@ -40,10 +47,8 @@ for (var i = 0; i < jsonDatabase.length; i++) {
 }
 
 function createElementProper(incomingJSON) {
-  /*var divColor = "#eefbfd";*/
 
   let newContentElement = document.createElement("DIV");
-  /*newContentElement.style.backgroundColor = divColor;*/
   newContentElement.classList.add('contentItem');
 
   let newContentHeading = document.createElement("H3");
