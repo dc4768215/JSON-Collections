@@ -25,7 +25,14 @@ let jsonDatabase = [
     "Color" : "Pale Peach",
     "Species" : "Human",
     "Occupation" : "Head of Smiling Friends Inc."
-  }
+  }/*,
+  {
+    "Name" : "Alan",
+    "pictureURL" : "Alan.webp"
+    "Color" : "Pale Red"
+    "Species" : "Critter"
+    "Occupation" : "Smiling Friend; Former Frowning Friend"
+  }*/
 ]
 
 for (var i = 0; i < jsonDatabase.length; i++) {
