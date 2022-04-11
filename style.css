@@ -2,10 +2,18 @@
   /*display: grid;
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(3, 1fr);*/
-
-
   justify-content: space-evenly;
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+}
 
+#contentGrid > div {
+  /*display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /*justify-content: space-evenly;*/
+  /*position: absolute;
+  top: 30px;
+  left: 15px;*/
 }
 
 .bg {
