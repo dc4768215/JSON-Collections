@@ -1,10 +1,13 @@
 #contentGrid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  /*display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);*/
 
-  position: absolute;
+  /*position: absolute;
   top: 0%;
-  left: 0%;
+  left: 0%;*/
+ justify-content: space-evenly;
+ left: 5%;
 }
 
 .bg {
